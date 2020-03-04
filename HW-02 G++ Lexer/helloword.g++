@@ -1,0 +1,22 @@
+;; helloword.g++
+(deffun sumup (x)
+    (if (equal x 0) 
+        1 
+        (+ x (sumup (- x 1)))
+    )
+)
+
+;; EXAMPLE2
+(list 1 2 123)
+
+;; EXAMPLE3
+(set ABC1 7)
+
+;; EXAMPLE4
+(set 123ID 5)
+
+;; EXAMPLE5
+( ? )
+
+;; EXAMPLE6
+( ** 2 )
